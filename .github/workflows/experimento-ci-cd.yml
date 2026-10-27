@@ -1,0 +1,18 @@
+# Entre no diretório do repositório clonado
+cd nome-do-seu-repositorio
+
+# Crie o diretório .github e o subdiretório workflows (com -p para criar pais se não existirem)
+mkdir -p .github/workflows
+
+# Navegue até o diretório workflows
+cd .github/workflows
+
+# Crie o arquivo experimento-ci-cd.yml vazio
+touch experimento-ci-cd.yml
+
+# Agora, você pode abrir esse arquivo no editor de texto de sua preferência, por exemplo:
+nano experimento-ci-cd.yml
+# ou
+vim experimento-ci-cd.yml
+
+# Cole o conteúdo do pipeline CI/CD dentro desse arquivo e salve
